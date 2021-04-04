@@ -1,0 +1,152 @@
+.normal{
+    border-bottom: 6px solid #ff7e28;
+    
+    &:hover{
+      background-color: #ff7e28;
+    }
+  }
+  .fighting{
+    border-bottom: 6px solid #e4cf18;
+    &:hover{
+      background-color: #e4cf18;
+      color: rgb(43, 43, 43);
+
+    }
+  }
+  .flying{
+    border-bottom: 6px solid #39ca15;
+    &:hover{
+      background-color: #39ca15;
+    }
+  }
+  .poison{
+    border-bottom: 6px solid #b70bbd;
+    &:hover{
+      background-color: #b70bbd;
+    }
+  }
+  .ground{
+    border-bottom: 6px solid #3d321e;
+    &:hover{
+      background-color: #3d321e;
+    }
+  }
+
+  .rock{
+    border-bottom: 6px solid #7e695b;
+    
+    &:hover{
+      background-color: #7e695b;
+    }
+  }
+  .bug{
+    border-bottom: 6px solid #e4cf18;
+    &:hover{
+      background-color: #e4cf18;
+      color: rgb(43, 43, 43);
+
+    }
+  }
+  .ghost{
+    border-bottom: 6px solid #cecece;
+    &:hover{
+      background-color: #cecece;
+      color: rgb(43, 43, 43);
+    }
+  }
+  .steel{
+    border-bottom: 6px solid #93e4d0;
+    &:hover{
+      background-color: #93e4d0;
+      color: rgb(43, 43, 43);
+
+    }
+  }
+  .fire{
+    border-bottom: 6px solid #e76430;
+    &:hover{
+      background-color: #e76430;
+    }
+  }
+
+  .water{
+    border-bottom: 6px solid #3850da;
+    
+    &:hover{
+      background-color: #3850da;
+    }
+  }
+  .grass{
+    border-bottom: 6px solid #27c94a;
+    &:hover{
+      background-color: #27c94a;
+    }
+  }
+  .electric{
+    border-bottom: 6px solid #f1e645;
+    &:hover{
+      background-color: #f1e645;
+      color: rgb(43, 43, 43);
+    }
+  }
+  .psychic{
+    border-bottom: 6px solid #fff8bc;
+    &:hover{
+      background-color: #fff8bc;
+      color: rgb(43, 43, 43);
+    }
+  }
+  .ice{
+    border-bottom: 6px solid #2fe3f0;
+    &:hover{
+      background-color: #2fe3f0;
+      color: rgb(43, 43, 43);
+
+    }
+  }
+
+  .dragon{
+    border-bottom: 6px solid #d12e2e;
+    
+    &:hover{
+      background-color: #d12e2e;
+    }
+  }
+  .dark{
+    border-bottom: 6px solid #000000;
+    &:hover{
+      background-color: #000000;
+    }
+  }
+  .fairy{
+    border-bottom: 6px solid #f54ed9;
+    &:hover{
+      background-color: #f54ed9;
+    }
+  }
+  .unknown{
+    border-bottom: 6px solid #636363;
+    &:hover{
+      background-color: #636363;
+    }
+  }
+  .shadow{
+    border-bottom: 6px solid #420785;
+    &:hover{
+      background-color: #420785;
+    }
+  }
+button{ 
+  background-color:  #292929;
+  color: rgb(230, 230, 230);
+  border-radius: 2px;
+  border: 0px;
+  height: 72px;
+  width: 80px;
+  cursor: pointer;
+  transition: filter 0.2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

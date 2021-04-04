@@ -1,0 +1,35 @@
+<section>
+    <header>
+
+        <form>
+            <div>
+                <p>Buscar</p> <input [(ngModel)]="search" name="search" type="text">
+            </div>
+            <button type="submit" (click)="searchPokemon()"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+    </header>
+
+
+
+    <content>
+        <app-pokemon-sides (click)="previous(previusPokemon.number)" class="sides1" [sidePokemon]="previusPokemon">
+        </app-pokemon-sides>
+        <div class="contentMid">
+            <div class="buttons">
+                <button *ngIf="pokemon" (click)="save()"><i class="fa fa-check-circle" aria-hidden="true"></i></button>
+                <button *ngIf="pokemon" (click)="discart()"><i class="fa fa-times-circle"
+                        aria-hidden="true"></i></button>
+            </div>
+            <app-previous-pokemon class="mid" [prePokemon]="pokemon"></app-previous-pokemon>
+
+        </div>
+        <app-pokemon-sides (click)="next(nextPokemon.number)" class="sides2" [sidePokemon]="nextPokemon">
+        </app-pokemon-sides>
+    </content>
+
+
+
+</section>
+
+
+<!-- <app-teste [pokemon]="pokemonErick" namePokemon="Charizard"></app-teste> -->

@@ -1,0 +1,51 @@
+.container {
+    background-color: rgb(211, 72, 72);
+    
+    height: 420px;
+    width: 260px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    content{
+        background-color: #d6d6d6;
+        height: 360px;
+        width: 180px;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 90px  0;
+
+        &:hover {
+            filter: brightness(1.2);
+           }
+        
+
+
+img {
+    height: 180px;
+}
+
+div{
+    background-color: #9659f7;
+    height: 32px;
+    border-radius: 90px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+p{
+    color: white;
+    font-size: 24px;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+}
+}
+}
+
+}

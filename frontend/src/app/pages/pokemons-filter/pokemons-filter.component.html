@@ -1,0 +1,14 @@
+<section>
+    <header>
+        <div *ngFor="let type of types">
+            <app-categories-button [typeList]="type" (click)="goToFilter(type)"></app-categories-button>
+        </div>
+    </header>
+    <div class="container">
+        <content *ngFor="let data of pokemons">
+
+            <app-pokemon-global [pokemon]="data.pokemon"></app-pokemon-global>
+
+        </content>
+    </div>
+</section>

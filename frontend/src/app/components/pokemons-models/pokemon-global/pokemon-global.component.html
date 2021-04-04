@@ -1,0 +1,9 @@
+<div class="container">
+    <content>
+        <img [src]="pokemon.image" alt="">
+        <div>
+            <p>{{pokemon.name}}</p>
+        </div>
+        <p *ngIf="!pokemon">{{pokemon.url}}</p>
+    </content>
+</div>

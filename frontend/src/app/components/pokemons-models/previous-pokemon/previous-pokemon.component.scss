@@ -1,0 +1,51 @@
+.foundPokemon {
+    background-color: #d34848;
+    height: 580px;
+    width: 680px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+      color: white;
+      background-color: #9659f7;
+      border-radius: 15px;
+      padding-right: 4px;
+      padding-left: 4px ;
+      font-size: 28px;
+    }
+    h5 {
+      color: white;
+      color: white;
+      background-color: #9659f7;
+      border-radius: 15px;
+      padding-right: 4px;
+      padding-left: 4px ;
+      font-size: 20px;
+    }
+    
+
+    }
+  
+    content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #d6d6d6;
+      height: 460px;
+      width: 520px;
+      border-radius: 90px 0;
+      padding-top: 26px;
+      
+      img {
+        margin-top: 20px;
+        height: 280px;
+        border-radius: 40px 0;
+
+      } 
+  }
+

@@ -1,0 +1,9 @@
+<div class="foundPokemon">
+
+    <content>
+        <img *ngIf="!prePokemon" [src]="defaultImage">
+        <img *ngIf="prePokemon" [src]="prePokemon?.image">
+        <h3>{{prePokemon?.name}}</h3>
+        <h5>{{prePokemon?.type}}</h5>
+    </content>
+</div>

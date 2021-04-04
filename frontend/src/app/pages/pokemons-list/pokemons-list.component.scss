@@ -1,0 +1,21 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cacaca;
+section {
+  background-color: #cacaca;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 1px;
+  width: 80%;
+
+  align-content: stretch;
+
+  
+  }
+}
+
+

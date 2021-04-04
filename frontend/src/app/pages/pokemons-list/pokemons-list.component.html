@@ -1,0 +1,8 @@
+<div class="container">
+    <section>
+        <div class="forEach" *ngFor="let pokemon of pokemons">
+            <!-- usando o emmiter event para pegar o valor do componete filho -->
+            <app-pokemon class="pokemon" [pokemon]="pokemon" (eventDelete)=deletePokemon($event)></app-pokemon>
+        </div>
+    </section>
+</div>

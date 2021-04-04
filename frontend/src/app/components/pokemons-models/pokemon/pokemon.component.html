@@ -1,0 +1,10 @@
+<div class="pokemon">
+    <header>
+        <button (click)="onDelete()">deletar</button>
+    </header>
+    <content>
+        <img [src]=pokemon?.image>
+        <h3>{{pokemon?.name}}</h3>
+        <h5>{{pokemon?.type}}</h5>
+    </content>
+</div>
